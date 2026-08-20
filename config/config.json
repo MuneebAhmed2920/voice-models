@@ -1,0 +1,11 @@
+{
+  "voice_id": "voice_emma",
+  "name": "Emma",
+  "gender": "female",
+  "language": "en-US",
+  "accent": "General American (Soft Empathetic Concierge)",
+  "default_guidance_scale": 2.2,
+  "default_speed": 0.9,
+  "sample_rate": 24000,
+  "prompt_file": "prompt/voice_prompt.pt"
+}

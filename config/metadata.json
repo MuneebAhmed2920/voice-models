@@ -1,0 +1,11 @@
+{
+  "voice_id": "voice_emma",
+  "name": "Emma",
+  "gender": "female",
+  "pitch_f0": "186.1 Hz",
+  "style": "Adult female. Soft, soothing, empathetic patient care and customer concierge.",
+  "license": "Permissive Voice Model Package (Apache-2.0)",
+  "commercial_use_allowed": true,
+  "redistribution_allowed": true,
+  "training_allowed": true
+}
