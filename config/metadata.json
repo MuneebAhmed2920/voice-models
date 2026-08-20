@@ -1,0 +1,11 @@
+{
+  "voice_id": "voice_michael",
+  "name": "Michael",
+  "gender": "male",
+  "pitch_f0": "108.2 Hz",
+  "style": "Adult male. Deep bass-baritone, authoritative, reassuring customer lead advisor.",
+  "license": "Permissive Voice Model Package (Apache-2.0)",
+  "commercial_use_allowed": true,
+  "redistribution_allowed": true,
+  "training_allowed": true
+}
