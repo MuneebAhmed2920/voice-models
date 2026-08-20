@@ -1,0 +1,11 @@
+{
+  "voice_id": "voice_alex",
+  "name": "Alex",
+  "gender": "male",
+  "language": "en-US",
+  "accent": "General American (Warm Customer Specialist)",
+  "default_guidance_scale": 2.2,
+  "default_speed": 0.92,
+  "sample_rate": 24000,
+  "prompt_file": "prompt/voice_prompt.pt"
+}

@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  omnivoice-tts:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: omnivoice-tts-service:latest
+    container_name: omnivoice-tts
+    restart: unless-stopped
+    ports:
+      - "8000:8000"   # REST & WebSocket API
+      - "9092:9092"   # Asterisk AudioSocket TCP
+    environment:
+      - HOST=0.0.0.0
+      - PORT=8000
+      - ENABLE_AUDIOSOCKET=true
+      - AUDIOSOCKET_PORT=9092
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+    volumes:
+      - ./config:/app/config
+      - ./prompt:/app/prompt
+      - huggingface-cache:/root/.cache/huggingface
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+volumes:
+  huggingface-cache:

@@ -1,0 +1,11 @@
+{
+  "voice_id": "voice_alex",
+  "name": "Alex",
+  "gender": "male",
+  "pitch_f0": "160.2 Hz",
+  "style": "Adult male. Warm tenor, upbeat, articulate customer care specialist with natural conversational cadence.",
+  "license": "Permissive Voice Model Package (Apache-2.0)",
+  "commercial_use_allowed": true,
+  "redistribution_allowed": true,
+  "training_allowed": true
+}
