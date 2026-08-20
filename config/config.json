@@ -1,0 +1,11 @@
+{
+  "voice_id": "voice_sarah",
+  "name": "Sarah",
+  "gender": "female",
+  "language": "en-US",
+  "accent": "General American (Confident Sharp Professional)",
+  "default_guidance_scale": 2.2,
+  "default_speed": 0.92,
+  "sample_rate": 24000,
+  "prompt_file": "prompt/voice_prompt.pt"
+}

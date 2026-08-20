@@ -1,0 +1,11 @@
+{
+  "voice_id": "voice_sarah",
+  "name": "Sarah",
+  "gender": "female",
+  "pitch_f0": "217.6 Hz",
+  "style": "Adult female. Confident, articulate, sharp professional business advisor.",
+  "license": "Permissive Voice Model Package (Apache-2.0)",
+  "commercial_use_allowed": true,
+  "redistribution_allowed": true,
+  "training_allowed": true
+}
