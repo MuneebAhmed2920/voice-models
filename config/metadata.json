@@ -1,0 +1,11 @@
+{
+  "voice_id": "voice_olivia",
+  "name": "Olivia",
+  "gender": "female",
+  "pitch_f0": "186.7 Hz",
+  "style": "Adult female. Bright, upbeat, friendly lifestyle concierge with smiling acoustic presence.",
+  "license": "Permissive Voice Model Package (Apache-2.0)",
+  "commercial_use_allowed": true,
+  "redistribution_allowed": true,
+  "training_allowed": true
+}

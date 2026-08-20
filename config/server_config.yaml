@@ -1,0 +1,32 @@
+# ====================================================================
+# OmniVoice Production Server Configuration (Windows CUDA FP16 / Linux)
+# ====================================================================
+
+server:
+  host: "0.0.0.0"
+  port: 8000
+  workers: 1
+  log_level: "info"
+  enable_cors: true
+
+engine:
+  model_name_or_path: "k2-fsa/OmniVoice"
+  device: "cuda:0"           # "cuda:0" or "cpu" (auto-detected if blank)
+  precision: "fp16"          # "fp16", "bf16", "fp32"
+  default_voice: "voice_olivia"
+  default_ode_steps: 16      # 16 for ultra-low-latency real-time voice, 32 for studio
+  default_guidance_scale: 2.2
+  default_speed: 0.92
+  warmup_on_startup: true
+
+audio:
+  default_sample_rate: 8000  # 8000 (PSTN Telephony), 16000 (HD Voice), 24000 (Native)
+  default_format: "pcm16"    # "pcm16", "mulaw", "alaw", "wav"
+  frame_duration_ms: 20      # 20ms telephony frames (320 bytes @ 8kHz PCM16)
+  target_rms: 0.05
+  normalize_volume: true
+
+telephony_bridges:
+  enable_audiosocket: true
+  audiosocket_port: 9092
+  audiosocket_sample_rate: 8000
