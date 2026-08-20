@@ -1,0 +1,10 @@
+{
+  "voice_id": "voice_clara",
+  "name": "Clara",
+  "gender": "female",
+  "style": "Adult female. Natural conversational American English, warm, calm confidence, friendly, clear pronunciation, soft natural voice texture, relaxed cadence, telephone representative prosody.",
+  "license": "Permissive Voice Model Package (Apache-2.0)",
+  "commercial_use_allowed": true,
+  "redistribution_allowed": true,
+  "training_allowed": true
+}
