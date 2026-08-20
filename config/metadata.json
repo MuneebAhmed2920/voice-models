@@ -1,0 +1,11 @@
+{
+  "voice_id": "voice_david",
+  "name": "David",
+  "gender": "male",
+  "pitch_f0": "120.3 Hz",
+  "style": "Adult male. Calm baritone, confident, articulate professional customer success specialist.",
+  "license": "Permissive Voice Model Package (Apache-2.0)",
+  "commercial_use_allowed": true,
+  "redistribution_allowed": true,
+  "training_allowed": true
+}

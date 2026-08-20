@@ -1,0 +1,11 @@
+{
+  "voice_id": "voice_david",
+  "name": "David",
+  "gender": "male",
+  "language": "en-US",
+  "accent": "General American (Calm Articulate Specialist)",
+  "default_guidance_scale": 2.2,
+  "default_speed": 0.9,
+  "sample_rate": 24000,
+  "prompt_file": "prompt/voice_prompt.pt"
+}
