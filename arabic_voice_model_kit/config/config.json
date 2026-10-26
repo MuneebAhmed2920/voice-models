@@ -1,0 +1,43 @@
+{
+  "voice_id": "voice_arabic_clara",
+  "name": "Arabic Conversational Voice",
+  "gender": "female",
+  "language": "ar-SA",
+  "accent": "Saudi Najdi / Conversational Telephony Arabic",
+  "default_guidance_scale": 2.2,
+  "default_speed": 0.92,
+  "default_ode_steps": 16,
+  "class_temperature": 0.20,
+  "sample_rate": 24000,
+  "prompt_file": "prompt/voice_prompt.pt",
+  "breath_file": "prompt/breath_organic.wav",
+  "supported_emotions": [
+    "neutral",
+    "excited",
+    "sympathetic",
+    "emotional"
+  ],
+  "pauses_ms": {
+    "comma": 120,
+    "period": 280,
+    "question": 280,
+    "colon": 150,
+    "dash": 150
+  },
+  "eq_mastering": {
+    "hpf_cutoff_hz": 75,
+    "warmth_low_shelf_hz": 280,
+    "warmth_gain_db": 1.5,
+    "presence_peak_hz": 4000,
+    "presence_gain_db": 2.0,
+    "presence_q": 1.2,
+    "limiter_ceiling": 0.95
+  },
+  "telephony": {
+    "default_sample_rate": 8000,
+    "supported_sample_rates": [8000, 16000, 24000],
+    "supported_codecs": ["pcm16", "mulaw", "alaw", "wav"],
+    "frame_duration_ms": 20,
+    "target_rms": 0.05
+  }
+}

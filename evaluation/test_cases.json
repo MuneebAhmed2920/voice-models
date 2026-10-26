@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "category": "greetings",
+    "description": "Warm greeting opening",
+    "texts": [
+      {"ar": "مرحباً بك! يسعدنا التواصل معك اليوم.", "en": "Welcome! We're happy to speak with you today."},
+      {"ar": "صباح الخير! كيف يمكنني مساعدتك؟", "en": "Good morning! How can I help you?"},
+      {"ar": "أهلاً وسهلاً بكم في خدمة العملاء.", "en": "Hello and welcome to customer service."}
+    ]
+  },
+  {
+    "id": 2,
+    "category": "questions",
+    "description": "Natural question intonation",
+    "texts": [
+      {"ar": "هل يمكنني مساعدتك في شيء آخر؟", "en": "Can I help you with anything else?"},
+      {"ar": "هل تريد أن أرسل لك رسالة تأكيد؟", "en": "Would you like me to send you a confirmation message?"},
+      {"ar": "كيف يمكنني خدمتك اليوم؟", "en": "How can I serve you today?"}
+    ]
+  },
+  {
+    "id": 3,
+    "category": "long_sentences",
+    "description": "Long natural explanations with multi-clause prosody",
+    "texts": [
+      {"ar": "طلبك قيد المعالجة حالياً وسيصل إلى عنوانك المسجل خلال ثلاثة إلى خمسة أيام عمل من تاريخ اليوم، وفي حال واجهت أي مشكلة يمكنك التواصل معنا على مدار الساعة.", "en": "Your order is currently being processed and will arrive at your registered address within three to five business days from today, and if you encounter any issue you can contact us around the clock."},
+      {"ar": "نود إبلاغك بأن الخدمة ستكون متوقفة مؤقتاً للصيانة الدورية في الفترة من الساعة الثانية صباحاً حتى السادسة صباحاً بتوقيت المملكة العربية السعودية.", "en": "We would like to inform you that the service will be temporarily down for scheduled maintenance from two AM to six AM Saudi Arabia time."}
+    ]
+  },
+  {
+    "id": 4,
+    "category": "short_confirmations",
+    "description": "Crisp conversational short responses without audiobook pacing",
+    "texts": [
+      {"ar": "نعم، بالتأكيد.", "en": "Yes, absolutely."},
+      {"ar": "حسناً، سأتحقق من ذلك لك.", "en": "Okay, let me check that for you."},
+      {"ar": "تمام، تم تسجيل طلبك.", "en": "Perfect, your request has been registered."},
+      {"ar": "مفهوم، شكراً لك.", "en": "Understood, thank you."}
+    ]
+  },
+  {
+    "id": 5,
+    "category": "emotional_responses",
+    "description": "Context-appropriate emotional tone",
+    "texts": [
+      {"ar": "نعتذر بشدة عن الإزعاج الذي سببناه لك، ونقدر صبرك وتفهمك.", "en": "We sincerely apologize for the inconvenience we caused you, and we appreciate your patience and understanding."},
+      {"ar": "يسعدنا إبلاغك بأن طلبك تمت الموافقة عليه بنجاح!", "en": "We are happy to inform you that your request has been successfully approved!"},
+      {"ar": "مرحباً بكم في يومنا الخاص، نشكر كل من يدعمنا ويثق بنا.", "en": "Welcome to our special day, we thank everyone who supports and trusts us."}
+    ]
+  },
+  {
+    "id": 6,
+    "category": "numbers",
+    "description": "Natural number pronunciation",
+    "texts": [
+      {"ar": "رقم الطلب هو 1247865.", "en": "Your order number is 1247865."},
+      {"ar": "الرصيد المتاح هو 2350 ريال سعودي.", "en": "Your available balance is 2350 Saudi Riyals."},
+      {"ar": "لديك 3 رسائل جديدة و17 بريداً إلكترونياً.", "en": "You have 3 new messages and 17 emails."}
+    ]
+  },
+  {
+    "id": 7,
+    "category": "phone_numbers",
+    "description": "Phone numbers read digit by digit",
+    "texts": [
+      {"ar": "يمكنك التواصل معنا على الرقم 0501234567.", "en": "You can reach us at 0501234567."},
+      {"ar": "رقمنا الدولي هو +966501234567.", "en": "Our international number is +966501234567."},
+      {"ar": "خدمة العملاء متاحة على 920012345.", "en": "Customer service is available at 920012345."}
+    ]
+  },
+  {
+    "id": 8,
+    "category": "money",
+    "description": "Currency amounts spoken naturally",
+    "texts": [
+      {"ar": "إجمالي فاتورتك هو 245.50 ريال سعودي.", "en": "Your total bill is 245.50 Saudi Riyals."},
+      {"ar": "الرسوم الشهرية هي 99 ريال فقط.", "en": "The monthly fee is only 99 Riyals."},
+      {"ar": "وفرت 1500 ريال مقارنة بالسعر الأصلي.", "en": "You saved 1500 Riyals compared to the original price."}
+    ]
+  },
+  {
+    "id": 9,
+    "category": "dates",
+    "description": "Dates read naturally in Arabic",
+    "texts": [
+      {"ar": "موعد انتهاء صلاحية بطاقتك هو 15/09/2026.", "en": "Your card expiry date is 15/09/2026."},
+      {"ar": "سيصل طلبك بتاريخ 20/10/2026.", "en": "Your order will arrive on 20/10/2026."},
+      {"ar": "آخر موعد للسداد هو 30 سبتمبر 2026.", "en": "The payment deadline is September 30, 2026."}
+    ]
+  },
+  {
+    "id": 10,
+    "category": "times",
+    "description": "Times announced clearly",
+    "texts": [
+      {"ar": "يمكنك الاتصال بنا من الساعة 9:00 صباحاً حتى 5:00 مساءً.", "en": "You can call us from 9:00 AM to 5:00 PM."},
+      {"ar": "موعدك المؤكد هو الساعة 3:30 مساءً يوم الثلاثاء.", "en": "Your confirmed appointment is at 3:30 PM on Tuesday."},
+      {"ar": "ستصلك الرسالة خلال 24:00 ساعة.", "en": "You will receive the message within 24 hours."}
+    ]
+  },
+  {
+    "id": 11,
+    "category": "addresses",
+    "description": "Addresses and locations read clearly",
+    "texts": [
+      {"ar": "عنوانك المسجل هو شارع الملك فهد، الرياض، المملكة العربية السعودية.", "en": "Your registered address is King Fahd Street, Riyadh, Saudi Arabia."},
+      {"ar": "أقرب فرع لك يقع في الطابق الثالث، برج المملكة، الرياض.", "en": "The nearest branch to you is on the third floor, Kingdom Tower, Riyadh."}
+    ]
+  },
+  {
+    "id": 12,
+    "category": "names",
+    "description": "Names spoken naturally without pauses or breaths mid-name",
+    "texts": [
+      {"ar": "شكراً لك يا محمد عبدالله الشمري.", "en": "Thank you, Mohammed Abdullah Al-Shammari."},
+      {"ar": "تم تسجيل اسمك: نورة خالد الزهراني.", "en": "Your name has been registered: Noura Khalid Al-Zahrani."},
+      {"ar": "حسابك مسجل باسم أحمد فيصل العتيبي.", "en": "Your account is registered under Ahmed Faisal Al-Utaibi."}
+    ]
+  },
+  {
+    "id": 13,
+    "category": "english",
+    "description": "English connected speech with natural reductions",
+    "texts": [
+      {"ar": null, "en": "Would you like anything else today?"},
+      {"ar": null, "en": "Your order has been confirmed and will be delivered within three business days."},
+      {"ar": null, "en": "I'm sorry, I didn't catch that. Could you please repeat it?"}
+    ]
+  },
+  {
+    "id": 14,
+    "category": "arabic_pure",
+    "description": "Pure MSA Arabic with correct phonemes",
+    "texts": [
+      {"ar": "نرحب بكم في خدمة العملاء لدينا، ونأمل أن نكون عند حسن ظنكم دائماً.", "en": null},
+      {"ar": "تهدف الشركة إلى تقديم أفضل تجربة ممكنة لعملائها الكرام في جميع أنحاء المنطقة.", "en": null},
+      {"ar": "نقدر ثقتك بنا ونؤكد لك أننا نعمل بكل جهد لضمان رضاك التام.", "en": null}
+    ]
+  },
+  {
+    "id": 15,
+    "category": "arabic_diacritics",
+    "description": "Arabic with diacritics — correct vowel pronunciation",
+    "texts": [
+      {"ar": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ.", "en": null},
+      {"ar": "يَسْعَدُنَا خِدْمَتُكُمْ فِي أَيِّ وَقْتٍ تَشَاؤُونَ.", "en": null},
+      {"ar": "نَشْكُرُ لَكُمْ تَوَاصُلَكُمْ مَعَنَا وَنَتَمَنَّى لَكُمْ يَوْمًا سَعِيدًا.", "en": null}
+    ]
+  },
+  {
+    "id": 16,
+    "category": "mixed_arabic_english",
+    "description": "Code-switching — Arabic+English without phonetic contamination",
+    "texts": [
+      {"ar": "طلبك confirmed وسيصل خلال thirty minutes.", "en": null},
+      {"ar": "حسابك active وليس عليك أي pending payments.", "en": null},
+      {"ar": "رمز الـ OTP الخاص بك صالح لمدة خمس دقائق فقط.", "en": null},
+      {"ar": "يمكنك تتبع طلبك من خلال الـ app أو الموقع الإلكتروني.", "en": null}
+    ]
+  },
+  {
+    "id": 17,
+    "category": "fast_conversational",
+    "description": "Snappy conversational responses — not audiobook pacing",
+    "texts": [
+      {"ar": "تمام، لحظة.", "en": "Sure, one moment."},
+      {"ar": "نعم، تأكدت.", "en": "Yes, confirmed."},
+      {"ar": "حسناً، سأحوّلك الآن.", "en": "Alright, I'll transfer you now."},
+      {"ar": "بالتأكيد، لا مشكلة.", "en": "Absolutely, no problem."}
+    ]
+  },
+  {
+    "id": 18,
+    "category": "long_call_center",
+    "description": "Full call-center agent response with natural rhythm",
+    "texts": [
+      {"ar": "شكراً لتواصلك مع خدمة العملاء، اسمي فاطمة وأنا هنا لمساعدتك. فهمت أن لديك استفساراً بخصوص فاتورتك الأخيرة. دعيني أتحقق من حسابك الآن، وسأرد عليك خلال لحظات.", "en": null},
+      {"ar": "أهلاً بك في مركز الدعم الفني، أنا أحمد وأسعدني تواصلك معنا. بناءً على المعلومات التي أمامي، تبدو المشكلة التي تواجهها بسبب انتهاء صلاحية الاشتراك. يمكنني تجديده لك مباشرةً إذا أردت.", "en": null}
+    ]
+  }
+]

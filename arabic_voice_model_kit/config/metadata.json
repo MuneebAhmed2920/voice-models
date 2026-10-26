@@ -1,0 +1,18 @@
+{
+  "voice_id": "voice_arabic_clara",
+  "name": "Arabic Conversational Representative",
+  "gender": "female",
+  "native_locale": "ar-SA",
+  "target_use_case": "Real-time Telephony & Conversational AI Customer Care",
+  "style": "Adult female. Natural conversational Arabic, warm tone, clear pharyngeal consonant articulation, relaxed telephone representative prosody with physiological airway breathing.",
+  "humanization_blueprint": "Clara 7-Pillar Proven Pipeline",
+  "license": "Apache-2.0",
+  "commercial_use_allowed": true,
+  "redistribution_allowed": true,
+  "supported_telephony_protocols": [
+    "Asterisk PBX",
+    "Vicidial Call Center",
+    "LiveKit WebRTC",
+    "SIP / AudioSocket"
+  ]
+}

@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "omnivoice-arabic"
+version = "1.0.0"
+description = "State-of-the-art Arabic OmniVoice Text-to-Speech system with zero-shot voice cloning, Tashkeel diacritization, and multi-dialect support (MSA & Egyptian)."
+authors = [{ name = "OmniVoice Arabic Team" }]
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+dependencies = [
+    "torch>=2.1.0",
+    "torchaudio>=2.1.0",
+    "omnivoice>=0.2.1",
+    "voicetut-tts>=0.1.1",
+    "soundfile>=0.12.0",
+    "scipy>=1.10.0",
+    "numpy>=1.24.0",
+    "librosa>=0.10.0",
+    "transformers>=4.40.0",
+    "accelerate>=0.28.0",
+    "pyarabic>=0.6.15",
+    "fastapi>=0.100.0",
+    "uvicorn>=0.22.0",
+    "gradio>=4.0.0",
+    "pydantic>=2.0.0"
+]
+
+[project.scripts]
+omnivoice-ar = "src.cli:main"
