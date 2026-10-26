@@ -1,0 +1,35 @@
+# Python / Environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Caches & IDEs
+.pytest_cache/
+.DS_Store
+.vscode/
+.idea/
+
+# Logs & Temporary Files
+*.log
+output/
+outputs/
+cache/
+tmp/
+temp/
+
+# Audio outputs & Evaluation artifacts
+output.wav
+test_*.wav
+*_test.wav
+whisper_*
+*_raw.json
+*_raw.txt
+
+# Preserve intentional reference recordings
+!recordings/final_spanish_female_full_test.wav
+!recordings/final_spanish_male_full_test.wav
+!WHISPER_SETUP.md

@@ -1,0 +1,6 @@
+# Minimal runtime dependencies for Spanish Voice TTS
+torch>=2.1.0
+torchaudio
+omnivoice
+numpy
+soundfile>=0.12.1
