@@ -1,0 +1,94 @@
+{
+  "boot_time_sec": 6.139257916000133,
+  "ram_model_mb": 2482.875,
+  "ram_total_mb": 2519.15625,
+  "overall_p50_ttfa": 1.85109950000151,
+  "overall_p95_ttfa": 10.26479529199969,
+  "overall_mean_rtf": 0.984849284481201,
+  "cases": [
+    {
+      "label": "1-Word Ack",
+      "text": "Hello.",
+      "voice_id": "female_1",
+      "steps_used": 4,
+      "audio_sec": 1.2,
+      "mean_ttfa_sec": 0.8306293196662106,
+      "p50_ttfa_sec": 0.8289905000001454,
+      "p95_ttfa_sec": 0.8533313006000753,
+      "mean_rtf": 0.6921910997218422,
+      "speed_x": 1.4446877464934917
+    },
+    {
+      "label": "Short Ack",
+      "text": "Absolutely.",
+      "voice_id": "male_1",
+      "steps_used": 4,
+      "audio_sec": 1.54,
+      "mean_ttfa_sec": 1.773108027666846,
+      "p50_ttfa_sec": 1.7486530000005587,
+      "p95_ttfa_sec": 1.8248578378001183,
+      "mean_rtf": 1.1565902123206908,
+      "speed_x": 0.8646104638854815
+    },
+    {
+      "label": "Short Phrase",
+      "text": "I can help you with that.",
+      "voice_id": "female_2",
+      "steps_used": 8,
+      "audio_sec": 1.4,
+      "mean_ttfa_sec": 1.8123478193338087,
+      "p50_ttfa_sec": 1.8158140830000775,
+      "p95_ttfa_sec": 1.8245616329999392,
+      "mean_rtf": 1.329344813092199,
+      "speed_x": 0.7522502740834355
+    },
+    {
+      "label": "Question Chunk",
+      "text": "What date would work best for you?",
+      "voice_id": "male_2",
+      "steps_used": 8,
+      "audio_sec": 1.84,
+      "mean_ttfa_sec": 1.8537382496670034,
+      "p50_ttfa_sec": 1.85109950000151,
+      "p95_ttfa_sec": 1.8794964493994484,
+      "mean_rtf": 1.0001542031169512,
+      "speed_x": 0.9998458206579839
+    },
+    {
+      "label": "Call-Center Balance",
+      "text": "Your total balance of $129.50 is due on Monday at 3:30 PM.",
+      "voice_id": "female_1",
+      "steps_used": 12,
+      "audio_sec": 5.88,
+      "mean_ttfa_sec": 4.943115361000309,
+      "p50_ttfa_sec": 4.961843208000573,
+      "p95_ttfa_sec": 5.003925371099285,
+      "mean_rtf": 0.8504685917251967,
+      "speed_x": 1.1758223757228647
+    },
+    {
+      "label": "Appointment Reminder",
+      "text": "Your appointment is scheduled for August 24th at 3:30 PM. Please call 310-555-0182.",
+      "voice_id": "male_1",
+      "steps_used": 12,
+      "audio_sec": 10.48,
+      "mean_ttfa_sec": 10.17495958366635,
+      "p50_ttfa_sec": 10.26479529199969,
+      "p95_ttfa_sec": 10.265798229499524,
+      "mean_rtf": 0.967804396457577,
+      "speed_x": 1.0332666431980135
+    },
+    {
+      "label": "Gesture & Pacing",
+      "text": "<breath> Thank you for calling! <chuckle> Let me look up your records right now.",
+      "voice_id": "female_2",
+      "steps_used": 12,
+      "audio_sec": 5.04,
+      "mean_ttfa_sec": 4.522854041667112,
+      "p50_ttfa_sec": 4.532615583000734,
+      "p95_ttfa_sec": 4.550815533299646,
+      "mean_rtf": 0.8973916749339508,
+      "speed_x": 1.1143406250939438
+    }
+  ]
+}

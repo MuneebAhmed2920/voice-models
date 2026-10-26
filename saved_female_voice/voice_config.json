@@ -1,0 +1,12 @@
+{
+  "voice_name": "female_1_dr_sara",
+  "description": "Exact female voice selected by user (Articulate, clear, and friendly customer support)",
+  "reference_audio": "female_1_reference.wav",
+  "prompt_tensor": "female_1_prompt.pt",
+  "reference_text": "Your appointment is scheduled for August 24th at 3:30 PM. Your total is $129.50. Please call us at 310-555-0182.",
+  "default_guidance_scale": 2.2,
+  "default_num_step": 16,
+  "default_pad_duration": 0.08,
+  "default_fade_duration": 0.08,
+  "sample_rate": 24000
+}
