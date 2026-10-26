@@ -1,0 +1,28 @@
+{
+  "name": "Mahrukh Pakistani Urdu Telephony Voice Model",
+  "version": "1.0.0",
+  "description": "Standalone production-grade Pakistani Urdu female voice model for AI voice bots, IVR, Asterisk, and Vicidial telephony.",
+  "speaker": {
+    "name": "Mahrukh",
+    "native_language": "Urdu (Pakistan)",
+    "tone": "Warm, polite, professional customer service agent",
+    "f0_mean_hz": 268.2
+  },
+  "calibrated_loanwords": [
+    "customer",
+    "receive",
+    "asalamualikum",
+    "payment",
+    "delivery",
+    "confirm",
+    "package",
+    "dispatch",
+    "active",
+    "process",
+    "check"
+  ],
+  "telephony_standards": [
+    "G.711 mu-law / A-law (8kHz)",
+    "PCM16 Linear (8kHz, 16kHz, 24kHz)"
+  ]
+}

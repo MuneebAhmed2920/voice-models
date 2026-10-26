@@ -1,0 +1,19 @@
+{
+  "voice_id": "mahrukh_urdu",
+  "speaker_name": "Mahrukh (ماہ رخ)",
+  "language": "ur",
+  "locale": "ur-PK",
+  "base_model": "k2-fsa/OmniVoice",
+  "default_speed": 0.88,
+  "default_guidance_scale": 1.85,
+  "default_num_step": 36,
+  "native_sample_rate": 24000,
+  "telephony_sample_rate": 8000,
+  "telephony_filter": {
+    "enabled": true,
+    "low_cutoff_hz": 300,
+    "high_cutoff_hz": 3400,
+    "order": 4
+  },
+  "female_mode": true
+}
