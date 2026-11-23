@@ -1,0 +1,23 @@
+{
+  "name": "Marukh English Telephony Voice Model",
+  "version": "1.0.0",
+  "description": "Standalone production-grade English female voice model of Mahrukh for AI voice bots, IVR, Asterisk, and Vicidial telephony.",
+  "speaker": {
+    "name": "Mahrukh (Marukh)",
+    "native_language": "Pakistani English / International English",
+    "tone": "Warm, polite, melodic, highly articulate customer service agent",
+    "acoustic_profile": {
+      "duration_sec": 28.35,
+      "rms_energy": 0.1357,
+      "mean_f0_hz": 281.67,
+      "median_f0_hz": 280.4,
+      "sample_rate": 24000
+    }
+  },
+  "reference_audio": "user_english_master_24k.wav",
+  "prompt_file": "marukh_english_prompt.pt",
+  "telephony_standards": [
+    "G.711 mu-law / A-law (8kHz)",
+    "PCM16 Linear (8kHz, 16kHz, 24kHz)"
+  ]
+}

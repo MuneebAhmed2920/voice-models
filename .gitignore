@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.DS_Store
+.venv/
+env/
+dist/
+build/
+*.egg-info/
+telephony_demo_outputs/
